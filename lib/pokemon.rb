@@ -8,7 +8,6 @@ class Pokemon
     @type = type
     @hp = hp
     @db = db
-  end
 
   def self.save(name, type, db)
     sql = <<-SQL
